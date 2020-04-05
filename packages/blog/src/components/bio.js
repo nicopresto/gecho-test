@@ -62,7 +62,6 @@ const Bio = () => {
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
         </a>
-        <a href={process.env.SITE_URL}>Go to SITE</a>
       </p>
     </div>
   )

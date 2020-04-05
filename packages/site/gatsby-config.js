@@ -4,6 +4,7 @@ require("dotenv").config({
   path: `.env.${activeEnv}`,
 })
 
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,

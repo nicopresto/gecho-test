@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import { Layout } from "@gecho-test/shared-ui"
+import { Image } from "@gecho-test/shared-ui"
+import { SEO } from "@gecho-test/shared-ui"
 
 const IndexPage = () => (
   <Layout>
@@ -15,7 +15,6 @@ const IndexPage = () => (
       <Image />
     </div>
     <Link to="/page-2/">Go to page 2</Link>
-    <a href={process.env.BLOG_URL}>Go to BLOG</a>
   </Layout>
 )
 
